@@ -1142,10 +1142,11 @@ blockquote {
   margin-right: auto;
   margin-left: auto;
   padding: 100px 55px 40px;
-  border-radius: 8px;
+  border-radius: 50px;
   background-color: #fff;
   text-align: center;
   text-decoration: none;
+  box-shadow: 8px 8px 10px -7px rgba(0, 0, 0, .3);
 }
 
 .author-wrapper.second-option {
@@ -1164,23 +1165,6 @@ blockquote {
   padding-bottom: 30px;
 }
 
-.author-photo {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  display: block;
-  width: 165px;
-  height: 165px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 100%;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
-  background-position: 50% 0px;
-  background-size: 250px;
-  background-repeat: no-repeat;
-  box-shadow: 8px 8px 10px -7px rgba(0, 0, 0, .3);
-}
 
 .author-photo.second-author {
   position: relative;

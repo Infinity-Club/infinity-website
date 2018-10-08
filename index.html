@@ -80,31 +80,53 @@
                 <div data-ix="fade-up-1" class="w-dyn-list">
 
                     <div class="w-dyn-items w-row">
+                      <div class="w-dyn-item w-col w-col-4">
+                      </div>
+                      <div class="w-dyn-item w-col w-col-4">
+                          <div class="author-wrapper">
+                              <div class="author-photo github"><a href="https://github.com/jisjoe"></a></div>
+                              <h4 class="author-name">Jis Joe Mathew</h4>
+                              <p class="work-name"></p>
+                              <p></p>
+                          </div>
+                      </div>
+                      <div class="w-dyn-item w-col w-col-4">
+                      </div>
+                    </div>
+                    <br>
+                    <div class="w-dyn-items w-row">
                         <div class="w-dyn-item w-col w-col-4">
                             <div class="author-wrapper">
-                                <div style="background-image:url(assets/img/)" class="author-photo"></div>
-                                <h4 class="author-name"></h4>
+                                <div class="author-photo github"><a href="https://github.com/philson-philip"></a></div>
+                                <h4 class="author-name">Philson Philip</h4>
                                 <p class="work-name"></p>
                                 <p></p>
                             </div>
                         </div>
                         <div class="w-dyn-item w-col w-col-4">
                             <div class="author-wrapper">
-                                <div style="background-image:url(assets/img/)" class="author-photo"></div>
-                                <h4 class="author-name"></h4>
+                                <div class="author-photo github"><a href="https://github.com/martin-raven"></a></div>
+                                <h4 class="author-name">Martin Siby Mathew</h4>
                                 <p class="work-name"></p>
                                 <p></p>
                             </div>
                         </div>
                         <div class="w-dyn-item w-col w-col-4">
                             <div class="author-wrapper">
-                                <div style="background-image:url(assets/img/)" class="author-photo"></div>
-                                <h4 class="author-name"></h4>
+                                <div class="author-photo github"><a href="https://github.com/devpranoy"></a></div>
+                                <h4 class="author-name">Pranoy Dev</h4>
                                 <p class="work-name"></p>
                                 <p></p>
                             </div>
                         </div>
                     </div>
+                    <script>
+                        let members = document.querySelectorAll('.github a')
+                        members.forEach(con => {
+                            console.log(con.href)
+                            con.innerHTML += '<img src="https://avatars.githubusercontent.com/' + con.href.split('https://github.com/')[1] + '"/>'
+                        })
+                    </script>
 
                 </div>
             </div>

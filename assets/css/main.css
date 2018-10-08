@@ -1138,11 +1138,14 @@ blockquote {
 .author-wrapper {
   display: block;
   width: 97%;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
-  padding: 100px 55px 40px;
-  border-radius: 50px;
+  padding-top: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 30px;
+  border-radius: 8px;
   background-color: #fff;
   text-align: center;
   text-decoration: none;

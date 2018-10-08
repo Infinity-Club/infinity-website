@@ -778,24 +778,24 @@ blockquote {
 }
 
 
-.features-icon.ico-3 {
-  background-image: url("../img/webdevelopment_icon.svg");
+.features-icon.ico-9 {
+  background-image: url("http://uploads.webflow.com/59bfa69c53d30a0001229753/59c4033153c3d600013df438_mail%20(3).svg");
   background-position: 50% 50%;
-  background-size: 60px;
+  background-size: 50px;
   background-repeat: no-repeat;
 }
 
-.features-icon.ico-10 {
-  background-image: url("../img/mobileapplication_icon.svg");
+.features-icon.ico-8 {
+  background-image: url("http://uploads.webflow.com/59bfa69c53d30a0001229753/59c4032f1e1932000173e298_phone-call%20(11).svg");
   background-position: 50% 50%;
-  background-size: 65px;
+  background-size: 50px;
   background-repeat: no-repeat;
 }
 
-.features-icon.ico-12 {
-  background-image: url("../img/internetmarketing_icon.svg");
+.features-icon.ico-7 {
+  background-image: url("http://uploads.webflow.com/59bfa69c53d30a0001229753/59c4032f7655dc00016f55ee_placeholder%20(11).svg");
   background-position: 50% 50%;
-  background-size: 60px;
+  background-size: 50px;
   background-repeat: no-repeat;
 }
 

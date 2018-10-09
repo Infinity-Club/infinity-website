@@ -25,7 +25,7 @@
             n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
         }(window, document);
     </script>
-    <link href="assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="assets/img/favicon.png" rel="shortcut icon" type="image/png" />
     <style type="text/css">
         .top-content {
             -webkit-font-smoothing: antialiased;
@@ -62,7 +62,9 @@
 
             <h1 style="text-align: center">About Us</h1>
             <div class="top-margin">
-                <p>&emsp;&emsp;</p>
+                <p>Infinity-As the name says, its the infinite ocean of knowledge, which is the legacy, to be tranfered from the best of AJCE to the next best every year.<br> Every year,
+                Infinity Club merges the commits to the new repo owners who proved their talents in coding. The Club also provides infinite chances to develop and blossom a fruitful career in Full Stack Development.<br>
+                The membership is premium, but cannot be bought with Dollors, but with Hashtags, Comments and Semi-colons.<br> Join Hands in building the strongest community of coding and development, beyond the limits of 'who you are?' or 'what you know?', because, here every byte of knowledge changes to KBs, GBs, TBs and more...</p>
             </div>
 
         </div>
@@ -80,72 +82,116 @@
                 <div data-ix="fade-up-1" class="w-dyn-list">
 
                     <div class="w-dyn-items w-row">
+                      <div class="w-dyn-item w-col w-col-4">
+                      </div>
+                      <div class="w-dyn-item w-col w-col-4">
+                          <div class="author-wrapper">
+                              <div class="author-photo github"><a href="https://github.com/jisjoe"></a></div>
+                              <h4 class="author-name">Jis Joe Mathew</h4>
+                              <p class="work-name"></p>
+                              <p></p>
+                          </div>
+                      </div>
+                      <div class="w-dyn-item w-col w-col-4">
+                      </div>
+                    </div>
+                    <br>
+                    <div class="w-dyn-items w-row">
                         <div class="w-dyn-item w-col w-col-4">
                             <div class="author-wrapper">
-                                <div style="background-image:url(assets/img/)" class="author-photo"></div>
-                                <h4 class="author-name"></h4>
+                                <div class="author-photo github"><a href="https://github.com/philson-philip"></a></div>
+                                <h4 class="author-name">Philson Philip</h4>
                                 <p class="work-name"></p>
                                 <p></p>
                             </div>
                         </div>
                         <div class="w-dyn-item w-col w-col-4">
                             <div class="author-wrapper">
-                                <div style="background-image:url(assets/img/)" class="author-photo"></div>
-                                <h4 class="author-name"></h4>
+                                <div class="author-photo github"><a href="https://github.com/martin-raven"></a></div>
+                                <h4 class="author-name">Martin Siby Mathew</h4>
                                 <p class="work-name"></p>
                                 <p></p>
                             </div>
                         </div>
                         <div class="w-dyn-item w-col w-col-4">
                             <div class="author-wrapper">
-                                <div style="background-image:url(assets/img/)" class="author-photo"></div>
-                                <h4 class="author-name"></h4>
+                                <div class="author-photo github"><a href="https://github.com/devpranoy"></a></div>
+                                <h4 class="author-name">Pranoy Dev</h4>
                                 <p class="work-name"></p>
                                 <p></p>
                             </div>
                         </div>
                     </div>
+                    <script>
+                        let members = document.querySelectorAll('.github a')
+                        members.forEach(con => {
+                            console.log(con.href)
+                            con.innerHTML += '<img style="position:relative;height:140px;width:140px;left: 0px;top: 0px;right: 0px;display: block;margin-right: auto;margin-left: auto;border-radius: 20%;background-position: 50% 0px;background-size: 250px;background-repeat: no-repeat;box-shadow: 8px 8px 10px -7px rgba(0, 0, 0, .3);" src="https://avatars.githubusercontent.com/' + con.href.split('https://github.com/')[1] + '"/>'
+                        })
+                    </script>
 
                 </div>
             </div>
         </div>
     </div>
-    <div id="contact-s" class="section white less-space no-line">
-        <div class="container-fluid">
-            <div data-ix="fade-up-1">
-                <div class="align-center">
-                    <br />
-                    <h1>Contact Us</h1>
+    <div class="section no-line">
+    <div id="contact-s" class="container-fluid">
+        <div class="top-title">
+            <div data-ix="fade-up-1" class="align-center">
+                <div class="sub-text-title">Do you have a question? Contact us now!</div>
+                <h1>Contact Us</h1></div>
+        </div>
+        <div class="div-block-4">
+            <div class="w-row">
+                <div data-ix="fade-up-1" class="w-col w-col-4">
+                    <div class="align-center">
+                        <div data-ix="features-move-on-hover" class="features-wrapper">
+                            <div class="features-icon ico-7"></div>
+                            <div class="line-divider gray-line"></div>
+                            <p>Amal Jyothi College of Engineering
+                                <br/>Computer Science and Engineering Department</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-ix="fade-up-2" class="w-col w-col-4">
+                    <div data-ix="features-move-on-hover" class="features-wrapper">
+                        <div class="features-icon ico-8"></div>
+                        <div class="line-divider gray-line"></div>
+                        <p>Mobile: +91 9746866216</p>
+                    </div>
+                </div>
+                <div data-ix="fade-up-3" class="w-col w-col-4">
+                    <div data-ix="features-move-on-hover" class="features-wrapper">
+                        <div class="features-icon ico-9"></div>
+                        <div class="line-divider gray-line"></div>
+                        <p>Email: infinity@amaljyothi.ac.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-margin more">
+            <div class="form-block center w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" data-ix="fade-up-1">
+                    <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="name" />
+                    <input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" id="Email" required="" />
+                    <input type="text" class="text-field w-input" maxlength="256" name="Subject" data-name="Subject" placeholder="Subject" id="Subject" />
+                    <textarea id="Message" name="Message" placeholder="Enter your message" maxlength="5000" required="" data-name="Message" class="text-field area w-input"></textarea>
+                    <div class="align-center">
+                        <input type="submit" value="Send Message" data-wait="Please wait..." class="button w-button" />
+                    </div>
+                </form>
+                <div class="success-message w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="error-message w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
                 </div>
             </div>
         </div>
     </div>
+</div>
     <div class="footer-style-1">
             <div class="container-fluid">
-                <div class="horizontal-flex-row top w-row">
-                    <div data-ix="fade-up-2" class="w-col w-col-4">
-                            <div data-ix="features-move-on-hover">
-                                <h4 class="align-center">Our Location</h4>
-                                <div class="line-divider center"></div>
-                                <p class="align-center">Amal Jyothi College of Engineering
-                                    <br/>Computer Science and Engineering Department</p>
-                            </div>
-                        </div>
-                        <div data-ix="fade-up-3" class="w-col w-col-4">
-                            <div data-ix="features-move-on-hover">
-                                <h4 class="align-center">Phone Number</h4>
-                                <div class="line-divider center"></div>
-                                <p class="align-center">+91 9746866216</p>
-                            </div>
-                        </div>
-                        <div data-ix="fade-up-4" class="w-col w-col-4">
-                            <div data-ix="features-move-on-hover">
-                                <h4 class="align-center">Email</h4>
-                                <div class="line-divider center"></div>
-                                <p class="align-center">infinity@amaljyothi.ac.in</p>
-                            </div>
-                        </div>
-                </div>
                 <div class="line-divider-footer"></div>
                 <div class="align-center">
                     <p class="copyright">Site Designed and Developed By <a href="#" target="_blank" class="footer-link">Infinity</a></p>

@@ -778,24 +778,24 @@ blockquote {
 }
 
 
-.features-icon.ico-3 {
-  background-image: url("../img/webdevelopment_icon.svg");
+.features-icon.ico-9 {
+  background-image: url("http://uploads.webflow.com/59bfa69c53d30a0001229753/59c4033153c3d600013df438_mail%20(3).svg");
   background-position: 50% 50%;
-  background-size: 60px;
+  background-size: 50px;
   background-repeat: no-repeat;
 }
 
-.features-icon.ico-10 {
-  background-image: url("../img/mobileapplication_icon.svg");
+.features-icon.ico-8 {
+  background-image: url("http://uploads.webflow.com/59bfa69c53d30a0001229753/59c4032f1e1932000173e298_phone-call%20(11).svg");
   background-position: 50% 50%;
-  background-size: 65px;
+  background-size: 50px;
   background-repeat: no-repeat;
 }
 
-.features-icon.ico-12 {
-  background-image: url("../img/internetmarketing_icon.svg");
+.features-icon.ico-7 {
+  background-image: url("http://uploads.webflow.com/59bfa69c53d30a0001229753/59c4032f7655dc00016f55ee_placeholder%20(11).svg");
   background-position: 50% 50%;
-  background-size: 60px;
+  background-size: 50px;
   background-repeat: no-repeat;
 }
 
@@ -1138,14 +1138,18 @@ blockquote {
 .author-wrapper {
   display: block;
   width: 97%;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
-  padding: 100px 55px 40px;
-  border-radius: 8px;
+  padding-top: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 30px;
+  border-radius: 20px;
   background-color: #fff;
   text-align: center;
   text-decoration: none;
+  box-shadow: 8px 8px 10px -7px rgba(0, 0, 0, .3);
 }
 
 .author-wrapper.second-option {
@@ -1164,23 +1168,6 @@ blockquote {
   padding-bottom: 30px;
 }
 
-.author-photo {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  display: block;
-  width: 165px;
-  height: 165px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 100%;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
-  background-position: 50% 0px;
-  background-size: 250px;
-  background-repeat: no-repeat;
-  box-shadow: 8px 8px 10px -7px rgba(0, 0, 0, .3);
-}
 
 .author-photo.second-author {
   position: relative;
